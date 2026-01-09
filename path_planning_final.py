@@ -260,8 +260,8 @@ def plot_and_animate(point_cloud, disks, path, mp4_filename, constrained_edges):
         # Add the line segment after completion (no animation)
         segment = np.array([start_point, end_point])
         plotter.add_lines(segment, color="red", width=3)
-        if i%10==0:
-            plotter.save_graphic(f"{mp4_filename[:-4]}_{i}.pdf")
+        # if i%10==0:
+        #     plotter.save_graphic(f"{mp4_filename[:-4]}_{i}.pdf")
 
     plotter.close()
 ## END PLOTTING UTILS ----------------
@@ -1342,7 +1342,7 @@ def intersect_past_edges(A,B, past_segments, simple=True):
             return True
     return False
 
-@timer
+# @timer
 def findBoundary(G: nx.DiGraph, points_2d):
     """
     Find boundary nodes of connected components in a 2D directed graph.
@@ -1821,7 +1821,7 @@ if __name__ == "__main__":
     admissible_disks = np.array(collision_free_disks)
     print(f"Final disks count: {admissible_disks.shape[0]}")
     assert admissible_disks.shape[0] > 0
-    pv.set_jupyter_backend("client")
+    # pv.set_jupyter_backend("client")
     if os.path.exists(os.path.join("out", "disks.png")):
         os.remove(os.path.join("out", "disks.png"))
     for filename in os.listdir("out"):
