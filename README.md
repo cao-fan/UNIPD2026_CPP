@@ -6,7 +6,7 @@ Download the repository. Open the terminal in the saved folder and install the r
 
 >  pip install -r requirements.txt
 
-Install the open source solvers, in particular SCIP is used([https://pypi.org/project/PuLP/](pulp help page)):
+Install the open source solvers, in particular SCIP is used(see https://pypi.org/project/PuLP/):
 
 >  pip install pulp[open_py]
 
