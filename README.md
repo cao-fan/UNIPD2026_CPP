@@ -10,6 +10,10 @@ Install the open source solvers, in particular SCIP is used(see https://pypi.org
 
 >  pip install pulp[open_py]
 
+Install the FFMPEG for the animations:
+
+>  pip install imageio[ffmpeg]
+
 To run the script:
 
 >  python path_planning_final.py
