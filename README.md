@@ -5,6 +5,7 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/#standalone-
 Inside the root folder run:
 
 > uv sync
+> 
 > uv run python path_planning_final.py
 
 ## Alternatively:
