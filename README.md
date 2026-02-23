@@ -1,6 +1,6 @@
 # Instructions
 
-Install (uv)[https://docs.astral.sh/uv/getting-started/installation/#standalone-installer].
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer).
 
 Inside the root folder run:
 
