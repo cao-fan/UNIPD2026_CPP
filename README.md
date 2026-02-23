@@ -1,6 +1,15 @@
 # Instructions
 
-> The following instructions require Python 3.12.7 already installed.
+Install (uv)[https://docs.astral.sh/uv/getting-started/installation/#standalone-installer].
+
+Inside the root folder run:
+
+> uv sync
+> uv run python path_planning_final.py
+
+## Alternatively:
+
+> The following instructions require Python 3.12(.7) already installed.
 
 Download the repository. Open the terminal in the saved folder and install the requirements:
 
